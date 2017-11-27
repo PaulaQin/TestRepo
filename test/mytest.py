@@ -1,4 +1,4 @@
 from __future__ import print_function
 import sys
 
-print("Hello Jenkins!")
+print("Hello Travis!")
