@@ -1,4 +1,5 @@
 language: python
+os: linux
 matrix:
     include:
         -python:3.5
