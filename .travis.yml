@@ -6,6 +6,6 @@ python:
 install: true
 #command to run tests
 script:
-    - PYTHONPATH=$PYTHONPATH py.test test/mytest.py
+    - python test/mytest.py
 deploy:
     skip_cleanup: true
