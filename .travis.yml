@@ -1,7 +1,11 @@
 language: python
 os: linux
-matrix:
-    include:
-        -python:3.5
+python:
+    - "3.5"
+# command to install dependencies
+install: true
+#command to run tests
 script:
-    - python test/mytest.py
+    - PYTHONPATH=$PYTHONPATH py.test test/mytest.py
+deploy:
+    skip_cleanup: true
